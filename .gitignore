@@ -7,7 +7,7 @@ models
 
 checkpoint
 *.csv
-*.png
+visualize_cnn.png
 workbench.py
 writeup_template.md
 
