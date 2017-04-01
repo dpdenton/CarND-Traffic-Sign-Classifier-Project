@@ -151,3 +151,8 @@ This prediction is similar in the subsequent images:
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 ####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
+Without any explicit direction, the network is detecting the outline of the shape of the road sign, suggesting it considers this important when classifying it, which would be correct.
+
+It also places heavy emaphasis on pixel within the 'shape' it's detected, showing it recognises that what is contained wihin the shape is useful when classifying a road sign, which would also be correct.
+
+There is some noise oustide of the shape of the sign which, in an ideal world, it should ignore, but it does a reasonable job of this.
