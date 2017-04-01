@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b14ca9d6-f25f-48b2-ac8e-ab0848dca088" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/CarND-Traffic-Sign-Classifier-Project.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Traffic_Sign_Classifier.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/downloads/no_passing.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/downloads/slippery_road.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/downloads/speed_120.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/downloads/stop.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/downloads/yield.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/grayscale.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/random_noise.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/visualization.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lenet.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lenet.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lenet.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/signnames.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/visualize_cnn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/workbench.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/writeup.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/writeup_template.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Traffic_Sign_Classifier.ipynb" afterPath="$PROJECT_DIR$/Traffic_Sign_Classifier.ipynb" />
     </list>
     <ignored path="CarND-Traffic-Sign-Classifier-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -87,6 +63,13 @@
               <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_freqency.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plots/class_freqency.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -195,6 +178,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CarND-Traffic-Sign-Classifier-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarND-Traffic-Sign-Classifier-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarND-Traffic-Sign-Classifier-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plots" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,9 +462,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22977099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22977099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -641,14 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/writeup.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visualize_cnn.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -660,6 +649,24 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/writeup.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots/class_freqency.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
