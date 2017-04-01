@@ -4,3 +4,11 @@ data
 models
 *.swp
 *.p
+
+checkpoint
+*.csv
+*.png
+workbench.py
+writeup_template.md
+
+examples
